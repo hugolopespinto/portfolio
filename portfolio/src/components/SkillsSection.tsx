@@ -46,10 +46,11 @@ export const SkillsSection = () => {
     { name: 'Git', level: 85 },
     { name: 'Git hub', level: 85 },
     { name: 'Docker', level: 75 },
+    { name: 'Heroku', level: 85 },
     { name: 'CI/CD', level: 75 },
     { name: 'Fire Base', level: 75 },
     { name: 'Figma', level: 80 },
-    { name: 'VS Code', level: 90 },
+    { name: 'VS Code / jetbrains IDE', level: 90 },
     { name: 'Agile/Scrum', level: 80 },
   ];
   
