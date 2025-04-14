@@ -36,13 +36,13 @@ export const translations: Translations = {
     risuYears: "2023 - 2025 | 2 years",
     
     partTimeTitle: "Experience",
-    partTimeCompany: "Part Time - Full Stack & AI Developer",
+    partTimeCompany: "Part Time - Full Stack Developer",
     partTimeDescription: "End-to-end full stack projects with Node.js, React, TypeScript, Agile",
     partTimeYears: "2024 - 2025 | 1.5 year",
     
     rhinovTitle: "Experience",
     rhinovCompany: "Rhinov - Full Stack & AI Developer Intern",
-    rhinovDescription: "Python, Flask, YOLOv5, Node.js, Angular",
+    rhinovDescription: "Python, Flask, YOLOv5, Node.js, Angular, typescript, Qwik",
     rhinovYears: "April 2023 - August 2023 | 5 months",
     
     redboxTitle: "Experience",
@@ -128,7 +128,7 @@ export const translations: Translations = {
     risuYears: "2023 - 2025 | 2 ans",
     
     partTimeTitle: "Expérience",
-    partTimeCompany: "Freelance - Développeur Full Stack & IA",
+    partTimeCompany: "Freelance - Développeur Full Stack",
     partTimeDescription: "Projets full stack de A à Z avec Node.js, React, TypeScript, Agile",
     partTimeYears: "2024 - 2025 | 1,5 an",
     

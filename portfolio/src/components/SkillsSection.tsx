@@ -18,6 +18,7 @@ export const SkillsSection = () => {
     { name: 'CSS', level: 90 },
     { name: 'JavaScript', level: 90 },
     { name: 'TypeScript', level: 80 },
+    { name: 'Qwik', level: 75 },
     { name: 'React', level: 80 },
     { name: 'React Native', level: 70 },
     { name: 'Flutter', level: 85 },
