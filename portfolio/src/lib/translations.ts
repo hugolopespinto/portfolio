@@ -36,13 +36,13 @@ export const translations: Translations = {
     risuYears: "2023 - 2025 | 2 years",
     
     partTimeTitle: "Experience",
-    partTimeCompany: "Part Time - Full Stack Developer",
+    partTimeCompany: "Independant - Full Stack Developer",
     partTimeDescription: "End-to-end full stack projects with Node.js, React, TypeScript, Agile",
-    partTimeYears: "2024 - 2025 | 1.5 year",
+    partTimeYears: "2024 - 2025 | 1 year",
     
     rhinovTitle: "Experience",
     rhinovCompany: "Rhinov - Full Stack & AI Developer Intern",
-    rhinovDescription: "Python, Flask, YOLOv5, Node.js, Angular, typescript, Qwik",
+    rhinovDescription: "Python, Flask, YOLOv5, Node.js, Angular, typescript and Qwik",
     rhinovYears: "April 2023 - August 2023 | 5 months",
     
     redboxTitle: "Experience",
@@ -57,7 +57,7 @@ export const translations: Translations = {
     
     ahliaTitle: "Education",
     ahliaSchool: "Ahlia University, Bahrain",
-    ahliaDegree: "Information Technology",
+    ahliaDegree: "International Exchange Program - IT Department",
     ahliaYears: "2023 - 2024 | 1 year",
     
     // Skills Section
@@ -130,11 +130,11 @@ export const translations: Translations = {
     partTimeTitle: "Expérience",
     partTimeCompany: "Freelance - Développeur Full Stack",
     partTimeDescription: "Projets full stack de A à Z avec Node.js, React, TypeScript, Agile",
-    partTimeYears: "2024 - 2025 | 1,5 an",
+    partTimeYears: "2024 - 2025 | 1 an",
     
     rhinovTitle: "Expérience",
     rhinovCompany: "Rhinov - Stagiaire Développeur Full Stack & IA",
-    rhinovDescription: "Python, Flask, YOLOv5, Node.js, Angular",
+    rhinovDescription: "Python, Flask, YOLOv5, Node.js, Angular, typescript et Qwik",
     rhinovYears: "Avril 2023 - Août 2023 | 5 mois",
     
     redboxTitle: "Expérience",
@@ -149,7 +149,7 @@ export const translations: Translations = {
     
     ahliaTitle: "Formation",
     ahliaSchool: "Université Ahlia, Bahreïn",
-    ahliaDegree: "Technologies de l'Information",
+    ahliaDegree: "Programme d'échange international (IT Department)",
     ahliaYears: "2023 - 2024 | 1 an",
     
     // Skills Section
