@@ -74,6 +74,7 @@ export const translations: Translations = {
     risuDescriptionProject: "Risu offers a connected storage locker solution as well as lockers for entertainment rentals. The latter can be customized according to the needs of our partners, and our lockers simplify the organization of your outdoor day. Enjoy your activities at any time with our innovative solution.",
     grandLuxeDriveDescription: "Car rental platform with admin authentication, car management, contact management.",
 
+
     
     // Contact Section
     contactTitle: "Get In Touch",
@@ -165,6 +166,7 @@ export const translations: Translations = {
     viewProject: "Voir le Projet",
     risuDescriptionProject: "Risu propose une solution de casiers connectés ainsi que des casiers pour la location de loisirs. Ces derniers peuvent être personnalisés selon les besoins de nos partenaires, et nos casiers simplifient l'organisation de votre journée en extérieur. Profitez de vos activités à tout moment grâce à notre solution innovante.",
     grandLuxeDriveDescription: "Plateforme de location de voitures avec authentification admin, gestion des voitures, gestion des contacts.",
+    eurlscDescription: "eurlsc est une entreprise de carrelage basée au pays basque depuis plus de 20 ans. j'ai développé un site web pour présenter leurs services et produits.",
     
     // Contact Section
     contactTitle: "Restons en Contact",

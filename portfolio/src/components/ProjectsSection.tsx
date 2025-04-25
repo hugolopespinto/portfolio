@@ -26,8 +26,17 @@ export const ProjectsSection = () => {
       description: t('grandLuxeDriveDescription'),
       image: 'https://images.unsplash.com/photo-1517694712202-14dd9538aa97?q=80&w=2670&auto=format&fit=crop',
       technologies: ['React.js', 'Node.js', 'Tailwind CSS', 'PostgreSQL', 'Prisma', 'Express', 'Docker', 'JWT',],
-      demoLink: '#',
-      repoLink: 'https://github.com/hugolopespinto/carours',
+      demoLink: 'https://front-grandluxedrive-e0065c030166.herokuapp.com/',
+      repoLink: '#',
+    },
+    {
+      id: 2,
+      title: 'EURL SC',
+      description: t('eurlscDescription'),
+      image: 'https://images.unsplash.com/photo-1517694712202-14dd9538aa97?q=80&w=2670&auto=format&fit=crop',
+      technologies: ['React.js', 'Tailwind CSS',],
+      demoLink: 'https://eurlsc.netlify.app/',
+      repoLink: '#',
     },
   ];
 
@@ -80,12 +89,14 @@ export const ProjectsSection = () => {
                   </Button>
                 )}
                 
-                <Button asChild variant="outline" size="sm">
-                  <a href={project.repoLink} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2">
-                    <Github className="h-4 w-4" />
-                    GitHub
-                  </a>
-                </Button>
+                {project.repoLink !== '#' && (
+                  <Button asChild variant="outline" size="sm">
+                    <a href={project.repoLink} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2">
+                      <Github className="h-4 w-4" />
+                      GitHub
+                    </a>
+                  </Button>
+                )} 
               </CardFooter>
             </Card>
           ))}
