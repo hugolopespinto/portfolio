@@ -26,7 +26,7 @@ export const ProjectsSection = () => {
       description: t('grandLuxeDriveDescription'),
       image: 'https://images.unsplash.com/photo-1517694712202-14dd9538aa97?q=80&w=2670&auto=format&fit=crop',
       technologies: ['React.js', 'Node.js', 'Tailwind CSS', 'PostgreSQL', 'Prisma', 'Express', 'Docker', 'JWT',],
-      demoLink: 'https://front-grandluxedrive-e0065c030166.herokuapp.com/',
+      demoLink: 'http://www.grandluxedrive.com/',
       repoLink: '#',
     },
     {
