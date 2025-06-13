@@ -38,6 +38,15 @@ export const ProjectsSection = () => {
       demoLink: 'https://eurlsc.netlify.app/',
       repoLink: '#',
     },
+    {
+      id: 4,
+      title: 'Student link',
+      description: t('studentLinkDescriptionProject'),
+      image: 'https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?q=80&w=2574&auto=format&fit=crop',
+      technologies: ['Flutter', 'Python', 'FastAPI', 'Stripe', 'MySQL', 'Docker', 'PostgreSQL', 'JWT'],
+      demoLink: 'https://studentlink.fr/',
+      repoLink: '#',
+    },
   ];
 
   return (
