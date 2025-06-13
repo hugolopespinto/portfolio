@@ -73,6 +73,8 @@ export const translations: Translations = {
     viewProject: "View Project",
     risuDescriptionProject: "Risu offers a connected storage locker solution as well as lockers for entertainment rentals. The latter can be customized according to the needs of our partners, and our lockers simplify the organization of your outdoor day. Enjoy your activities at any time with our innovative solution.",
     grandLuxeDriveDescription: "Car rental platform with admin authentication, car management, contact management.",
+    eurlscDescription: "eurlsc is a tiling company based in the Basque Country for over 20 years. I developed a website to showcase their services and products.",
+    studentLinkDescriptionProject: "Student Link is a platform that connects students with local businesses for internships and job opportunities. It provides a user-friendly interface for students to find relevant opportunities and for businesses to post their job listings.",
 
 
     
