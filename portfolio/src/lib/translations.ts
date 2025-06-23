@@ -15,14 +15,13 @@ export const translations: Translations = {
     
     // Hero Section
     heroGreeting: "Hello, I'm",
-    heroName: "Hugo Lopes pinto",
-    heroTitle: "Web Developer - Full Stack",
-    heroDescription: "I'm a passionate web developer with expertise in modern web technologies. Currently in my 5th year at Epitech with graduation in 2025.",
+    heroName: "Hugo Lopes Pinto",
+    heroTitle: "Software Engineer - Full Stack Developer",
+    heroDescription: "I'm a passionate software engineer with expertise in modern web technologies. I will graduate from Epitech in 2025.",
     heroButton: "Contact Me",
-    
     // About Section
       aboutTitle: "About Me",
-      aboutDescription: `I am a web developer in my 5th year at Epitech, passionate about creating elegant and functional web applications.
+      aboutDescription: `I am a software engineer in my 5th year at Epitech, passionate about creating web applications.
       With a solid background in computer science and a good sense of design, I bring ideas to life through code.
       My self-learning ability and academic journey at Epitech have provided me with theoretical knowledge and practical experience,
       enabling me to solve complex problems and deliver high-quality solutions.`,
@@ -108,14 +107,14 @@ export const translations: Translations = {
     
     // Hero Section
     heroGreeting: "Bonjour, je suis",
-    heroName: "Hugo Lopes pinto",
-    heroTitle: "Développeur Web - Full Stack",
-    heroDescription: "Je suis un développeur web passionné avec expertise en technologies web modernes. Actuellement en 5ème année à Epitech avec l'obtention de mon diplôme en 2025.",
+    heroName: "Hugo Lopes Pinto",
+    heroTitle: "Ingénieur Logiciel - Développeur Full Stack",
+    heroDescription: "Je suis un ingénieur logiciel passionné avec expertise en technologies web modernes. Je vais obtenir mon diplôme d'Epitech en 2025.",
     heroButton: "Me Contacter",
     
     // About Section
     aboutTitle: "À Propos",
-    aboutDescription: `Je suis un développeur web en 5ème année à Epitech, passionné par la création d'applications web élégantes et fonctionnelles.
+    aboutDescription: `Je suis un ingénieur logiciel en 5ème année à Epitech, passionné par la création d'applications web.
     Avec une solide formation en informatique et un bon sens du design, je donne vie aux idées à travers le code.
     Mon sens de l'apprentissage en autonomie et mon parcours académique à Epitech m'ont dotés d'une connaissance théorique et d'une expérience pratique,
     me permettant de résoudre des problèmes complexes et de fournir des solutions de haute qualité.`,
