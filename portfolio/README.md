@@ -17,3 +17,11 @@ Make sure you have [Node.js](https://nodejs.org/) installed on your system.
     ```bash
     npm run dev
     ```
+
+### deployment
+1. Build:
+    ```npm run build
+    ```
+2. Deploy:
+    ```npm run deploy
+    ```
