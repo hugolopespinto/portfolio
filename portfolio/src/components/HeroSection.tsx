@@ -49,7 +49,7 @@ export const HeroSection = () => {
           <div className="flex items-center gap-6 mt-12 pt-8 border-t border-border/50 w-full">
             <p className="text-sm text-foreground/60 font-mono">Tech Stack</p>
             <div className="flex gap-6 flex-wrap">
-              {['React', 'React native', 'TypeScript', 'Node.js', 'Angular', 'Flutter'].map((tech) => (
+              {['Python', 'Javascript', 'TypeScript', 'React', 'Node.js', 'Angular', 'Flutter'].map((tech) => (
                 <div key={tech} className="text-foreground/80 font-mono text-sm">
                   {tech}
                 </div>
