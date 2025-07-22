@@ -29,6 +29,12 @@ export const translations: Translations = {
       aboutSchool: "Epitech School of Technology",
       aboutDegree: "Master's Degree in Computer Science",
       aboutYears: "2020 - 2025", 
+
+    cycleVistaTitle: "Ecommerce website",
+    cycleVistaCompany: "Cycle Vista Store - Full Stack Developer",
+    cycleVistaDescription: "Cycle Vista is a fictional ecommerce website for bicycles. The site is for demonstration purposes only, no real orders or purchases can be made. Stripe is in test mode.",
+    cycleVistaYears: "2025",
+    
     risuTitle: "Experience",
     risuCompany: "RISU - Full Stack Mobile Developer",
     risuDescription: "Node.js, Flutter, CI/CD, Docker, Git, Scrum",
@@ -124,6 +130,11 @@ export const translations: Translations = {
     aboutYears: "2020 - 2025",
 
     // Experience and Education Cards
+    cycleVistaTitle: "Site Ecommerce",
+    cycleVistaCompany: "Cycle Vista Store - Développeur Full Stack",
+    cycleVistaDescription: "Cycle Vista est un site ecommerce fictif pour les vélos. Le site est à des fins de démonstration uniquement, aucune commande ou achat réel ne peut être effectué. Stripe est en mode test.",
+    cycleVistaYears: "2025",
+
     risuTitle: "Expérience",
     risuCompany: "RISU - Développeur Full Stack Mobile",
     risuDescription: "Node.js, Flutter, CI/CD, Docker, Git, Scrum",
