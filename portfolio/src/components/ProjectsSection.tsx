@@ -15,7 +15,7 @@ export const ProjectsSection = () => {
       id: 1,
       title: 'Cycle Vista Store',
       description: t('cycleVistaDescription'),
-      image: 'src/assets/hero-bike.jpg',
+      image: 'public/assets/hero-bike.jpg',
       technologies: ['react', 'Node.js', 'Stripe', 'Express'],
       demoLink: 'https://cycle-vista-storefront.vercel.app/',
       repoLink: '#',
