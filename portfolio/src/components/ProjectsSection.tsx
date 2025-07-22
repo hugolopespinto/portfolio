@@ -13,6 +13,15 @@ export const ProjectsSection = () => {
   const projects = [
     {
       id: 1,
+      title: 'Cycle Vista Store',
+      description: t('cycleVistaDescription'),
+      image: 'src/assets/hero-bike.jpg',
+      technologies: ['react', 'Node.js', 'Stripe', 'Express'],
+      demoLink: 'https://cycle-vista-storefront.vercel.app/',
+      repoLink: '#',
+    },
+    {
+      id: 2,
       title: 'RISU',
       description: t('risuDescriptionProject'),
       image: 'https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?q=80&w=2574&auto=format&fit=crop',
@@ -21,7 +30,7 @@ export const ProjectsSection = () => {
       repoLink: 'https://github.com/H-chauvet/RISU',
     },
     {
-      id: 2,
+      id: 3,
       title: 'Grand Luxe Drive',
       description: t('grandLuxeDriveDescription'),
       image: 'https://images.unsplash.com/photo-1517694712202-14dd9538aa97?q=80&w=2670&auto=format&fit=crop',
@@ -30,7 +39,7 @@ export const ProjectsSection = () => {
       repoLink: '#',
     },
     {
-      id: 2,
+      id: 4,
       title: 'EURL SC',
       description: t('eurlscDescription'),
       image: 'https://images.unsplash.com/photo-1517694712202-14dd9538aa97?q=80&w=2670&auto=format&fit=crop',
@@ -39,7 +48,7 @@ export const ProjectsSection = () => {
       repoLink: '#',
     },
     {
-      id: 4,
+      id: 5,
       title: 'Student link',
       description: t('studentLinkDescriptionProject'),
       image: 'https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?q=80&w=2574&auto=format&fit=crop',
