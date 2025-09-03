@@ -14,46 +14,31 @@ export const SkillsSection = () => {
   
   // Skill sets
   const frontendSkills = [
+    { name: 'React', level: 90 },
+    { name: 'React Native', level: 70 },
     { name: 'HTML5', level: 90 },
     { name: 'CSS', level: 90 },
-    { name: 'JavaScript', level: 90 },
-    { name: 'TypeScript', level: 80 },
-    { name: 'Qwik', level: 75 },
-    { name: 'React', level: 80 },
-    { name: 'React Native', level: 70 },
+    { name: 'JavaScript / TypeScript', level: 90 },
     { name: 'Flutter', level: 85 },
-    { name: 'Angular', level: 70 },
-    { name: 'Responsive Design', level: 80 },
-    { name: 'Bootstrap / Tailwind CSS', level: 80 },
+    { name: 'Angular', level: 80 },
   ];
   
   const backendSkills = [
     { name: 'Node.js', level: 90 },
-    { name: 'Express', level: 85 },
-    { name: 'Python', level: 90 },
-    { name: 'Flask', level: 80 },
-    { name: 'Stripe', level: 85 },
-    { name: 'Django', level: 65 },
-    { name: 'RESTful APIs', level: 75 },
-    { name: 'PHP Symfony', level: 75 },
-    { name: 'MongoDB', level: 70 },
-    { name: 'PostgreSQL', level: 85 },
-    { name: 'MySQL', level: 80 },
-    { name: 'OAuth2.0', level: 70 },
-    { name: 'JWT', level: 80 },
+    { name: 'Flask / FastAPI', level: 80 },
+    { name: 'PHP Symfony', level: 80 },
   ];
   
   const toolsSkills = [
-    { name: 'Git', level: 85 },
-    { name: 'Git hub', level: 85 },
-    { name: 'Docker', level: 75 },
-    { name: 'Heroku', level: 85 },
-    { name: 'Vercel', level: 85 },
-    { name: 'CI/CD', level: 75 },
-    { name: 'Fire Base', level: 75 },
-    { name: 'Figma', level: 80 },
-    { name: 'VS Code / jetbrains IDE', level: 90 },
-    { name: 'Agile/Scrum', level: 80 },
+    { name: 'Stripe', level: 85 },
+    { name: 'Git', level: 90 },
+    { name: 'Docker', level: 80 },
+    { name: 'Cloud', level: 80 },
+    { name: 'CI/CD', level: 70 },
+    { name: 'Agile/Scrum', level: 85 },
+    { name: 'Figma', level: 70 },
+    { name: 'PostgreSQL / MySQL', level: 85 },
+    { name: 'Kubernetes', level: 70 },
   ];
   
   const renderSkillBar = (skill: { name: string; level: number }) => (
