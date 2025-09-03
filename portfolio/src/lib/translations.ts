@@ -17,18 +17,20 @@ export const translations: Translations = {
     heroGreeting: "Hello, I'm",
     heroName: "Hugo Lopes Pinto",
     heroTitle: "Software Engineer - Full Stack Developer",
-    heroDescription: "I'm a passionate software engineer with expertise in modern web technologies. I will graduate from Epitech in 2025.",
+    heroDescription: "I am a young developer passionate about code and new technologies, driven by a genuine thirst to learn and improve every day. Autonomous and curious, I enjoy exploring new tools and taking on technical challenges, while easily integrating into a team thanks to my sense of collaboration and mutual support. My adaptability and constant desire to exceed myself allow me to contribute effectively to various projects while continuing to develop my skills.",
     heroButton: "Contact Me",
     // About Section
-      aboutTitle: "About Me",
-      aboutDescription: `I am a software engineer in my 5th year at Epitech, passionate about creating web applications.
-      With a solid background in computer science and a good sense of design, I bring ideas to life through code.
-      My self-learning ability and academic journey at Epitech have provided me with theoretical knowledge and practical experience,
-      enabling me to solve complex problems and deliver high-quality solutions.`,
-      aboutEducation: "Education",
-      aboutSchool: "Epitech School of Technology",
-      aboutDegree: "Master's Degree in Computer Science",
-      aboutYears: "2020 - 2025", 
+    educationTitle: "Educations",
+    experienceTitle: "Experiences",
+    aboutTitle: "About my experiences",
+    aboutDescription: `I am a software engineer in my 5th year at Epitech, passionate about creating web applications.
+    With a solid background in computer science and a good sense of design, I bring ideas to life through code.
+    My self-learning ability and academic journey at Epitech have provided me with theoretical knowledge and practical experience,
+    enabling me to solve complex problems and deliver high-quality solutions.`,
+    aboutEducation: "Education",
+    aboutSchool: "Epitech School of Technology",
+    aboutDegree: "Master's Degree in Computer Science",
+    aboutYears: "2020 - 2025", 
 
     cycleVistaTitle: "Ecommerce website",
     cycleVistaCompany: "Cycle Vista Store - Full Stack Developer",
@@ -41,7 +43,7 @@ export const translations: Translations = {
     risuYears: "2023 - 2025 | 2 years",
     
     partTimeTitle: "Experience",
-    partTimeCompany: "Independant - Full Stack Developer",
+    partTimeCompany: "Freelance - Software Engineer | Full Stack Developer",
     partTimeDescription: "End-to-end full stack projects with Node.js, React, TypeScript, Agile",
     partTimeYears: "2024 - 2025 | 1 year",
     
@@ -115,11 +117,13 @@ export const translations: Translations = {
     heroGreeting: "Bonjour, je suis",
     heroName: "Hugo Lopes Pinto",
     heroTitle: "Ingénieur Logiciel - Développeur Full Stack",
-    heroDescription: "Je suis un ingénieur logiciel passionné avec expertise en technologies web modernes. Je vais obtenir mon diplôme d'Epitech en 2025.",
+    heroDescription: "Je suis un jeune développeur passionné par le code et les nouvelles technologies, animé par une véritable soif d’apprendre et de progresser chaque jour. Autonome et curieux, j’aime explorer de nouveaux outils et relever des défis techniques, tout en sachant m’intégrer facilement dans une équipe grâce à mon sens de la collaboration et de l’entraide. Mon adaptabilité et mon envie constante de me dépasser me permettent de contribuer efficacement à des projets variés, tout en continuant à développer mes compétences.",
     heroButton: "Me Contacter",
     
     // About Section
-    aboutTitle: "À Propos",
+    educationTitle: "Formations",
+    experienceTitle: "Expériences",
+    aboutTitle: "À Propos de mes expériences",
     aboutDescription: `Je suis un ingénieur logiciel en 5ème année à Epitech, passionné par la création d'applications web.
     Avec une solide formation en informatique et un bon sens du design, je donne vie aux idées à travers le code.
     Mon sens de l'apprentissage en autonomie et mon parcours académique à Epitech m'ont dotés d'une connaissance théorique et d'une expérience pratique,
@@ -141,7 +145,7 @@ export const translations: Translations = {
     risuYears: "2023 - 2025 | 2 ans",
     
     partTimeTitle: "Expérience",
-    partTimeCompany: "Freelance - Développeur Full Stack",
+    partTimeCompany: "Freelance - Ingénieur logiciel | Développeur Full Stack",
     partTimeDescription: "Projets full stack de A à Z avec Node.js, React, TypeScript, Agile",
     partTimeYears: "2024 - 2025 | 1 an",
     
