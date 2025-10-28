@@ -61,6 +61,22 @@ export const AboutSection = () => {
         <div>
           <h3 className="text-2xl font-bold mb-8 text-center">{t('experienceTitle')}</h3>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            {/* Articentro */}
+            <Card className="glass-card overflow-hidden hover-scale">
+              <CardContent className="p-6">
+                <div className="flex items-start gap-4">
+                  <div className="bg-primary/20 p-3 rounded-full">
+                    <Briefcase className="h-6 w-6 text-primary" />
+                  </div>
+                  <div className="space-y-2">
+                    <h3 className="text-lg font-semibold">{t('articentroTitle')}</h3>
+                    <p className="font-medium">{t('articentroCompany')}</p>
+                    <p className="text-sm text-foreground/70">{t('articentroDescription')}</p>
+                    <p className="text-sm text-primary font-mono">{t('articentroYears')}</p>
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
             {/* Redbox */}
             <Card className="glass-card overflow-hidden hover-scale">
               <CardContent className="p-6">
