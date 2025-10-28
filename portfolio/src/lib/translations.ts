@@ -16,21 +16,26 @@ export const translations: Translations = {
     // Hero Section
     heroGreeting: "Hello, I'm",
     heroName: "Hugo Lopes Pinto",
-    heroTitle: "Software Engineer - Full Stack Developer",
+    heroTitle: "Software Engineer - Full Stack Developer - Founder of Articentro",
     heroDescription: "I am a young developer passionate about code and new technologies, driven by a genuine thirst to learn and improve every day. Autonomous and curious, I enjoy exploring new tools and taking on technical challenges, while easily integrating into a team thanks to my sense of collaboration and mutual support. My adaptability and constant desire to exceed myself allow me to contribute effectively to various projects while continuing to develop my skills.",
     heroButton: "Contact Me",
     // About Section
     educationTitle: "Educations",
     experienceTitle: "Experiences",
     aboutTitle: "About my experiences",
-    aboutDescription: `I am a software engineer in my 5th year at Epitech, passionate about creating web applications.
+    aboutDescription: `I am a software engineer graduated from Epitech in 2025, passionate about creating web applications.
     With a solid background in computer science and a good sense of design, I bring ideas to life through code.
-    My self-learning ability and academic journey at Epitech have provided me with theoretical knowledge and practical experience,
+    My self-learning ability and academic journey at Epitech have provided me with both theoretical knowledge and practical experience,
     enabling me to solve complex problems and deliver high-quality solutions.`,
     aboutEducation: "Education",
     aboutSchool: "Epitech School of Technology",
     aboutDegree: "Master's Degree in Computer Science",
     aboutYears: "2020 - 2025", 
+
+    articentroTitle: "Articentro",
+    articentroCompany: "Founder & Full Stack Developer",
+    articentroDescription: "Full development of a SaaS business management application designed for construction professionals (quotes, invoices, clients, payments, tracking). Built entirely from the ground up — from needs analysis to production release. Tech stack: Next.js (React), TypeScript, Supabase, jsPDF. This experience highlights strong autonomy, end-to-end product vision, and mastery of the full software development lifecycle.",
+    articentroYears: "July 2025 – Present | Remote",
 
     cycleVistaTitle: "Ecommerce website",
     cycleVistaCompany: "Cycle Vista Store - Full Stack Developer",
@@ -116,7 +121,7 @@ export const translations: Translations = {
     // Hero Section
     heroGreeting: "Bonjour, je suis",
     heroName: "Hugo Lopes Pinto",
-    heroTitle: "Ingénieur Logiciel - Développeur Full Stack",
+    heroTitle: "Ingénieur Logiciel - Développeur Full Stack - Fondateur d'Articentro",
     heroDescription: "Je suis un jeune développeur passionné par le code et les nouvelles technologies, animé par une véritable soif d’apprendre et de progresser chaque jour. Autonome et curieux, j’aime explorer de nouveaux outils et relever des défis techniques, tout en sachant m’intégrer facilement dans une équipe grâce à mon sens de la collaboration et de l’entraide. Mon adaptabilité et mon envie constante de me dépasser me permettent de contribuer efficacement à des projets variés, tout en continuant à développer mes compétences.",
     heroButton: "Me Contacter",
     
@@ -124,9 +129,9 @@ export const translations: Translations = {
     educationTitle: "Formations",
     experienceTitle: "Expériences",
     aboutTitle: "À Propos de mes expériences",
-    aboutDescription: `Je suis un ingénieur logiciel en 5ème année à Epitech, passionné par la création d'applications web.
+    aboutDescription: `Je suis un ingénieur logiciel diplômé d'Epitech en 2025, passionné par la création d'applications web.
     Avec une solide formation en informatique et un bon sens du design, je donne vie aux idées à travers le code.
-    Mon sens de l'apprentissage en autonomie et mon parcours académique à Epitech m'ont dotés d'une connaissance théorique et d'une expérience pratique,
+    Mon autonomie dans l'apprentissage et mon parcours académique à Epitech m'ont doté d'une connaissance théorique et d'une expérience pratique,
     me permettant de résoudre des problèmes complexes et de fournir des solutions de haute qualité.`,
     aboutEducation: "Formation",
     aboutSchool: "Epitech École de Technologie",
@@ -134,6 +139,11 @@ export const translations: Translations = {
     aboutYears: "2020 - 2025",
 
     // Experience and Education Cards
+    articentroTitle: "Articentro",
+    articentroCompany: "Fondateur & Développeur Full Stack",
+    articentroDescription: "Développement complet d’une application SaaS de gestion commerciale destinée aux artisans du bâtiment (devis, factures, clients, paiements, suivis). Projet conçu, développé et déployé de A à Z, de l’analyse du besoin à la mise en production. Stack : Next.js (React), TypeScript, Supabase, jsPDF. Expérience marquée par une forte autonomie, une vision produit complète et une maîtrise du cycle de développement d’un logiciel professionnel.",
+    articentroYears: "Juillet 2025 – Aujourd’hui | À distance",
+
     cycleVistaTitle: "Site Ecommerce",
     cycleVistaCompany: "Cycle Vista Store - Développeur Full Stack",
     cycleVistaDescription: "Cycle Vista est un site ecommerce fictif pour les vélos. Le site est à des fins de démonstration uniquement, aucune commande ou achat réel ne peut être effectué. Stripe est en mode test.",
