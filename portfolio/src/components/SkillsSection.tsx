@@ -16,17 +16,16 @@ export const SkillsSection = () => {
   const frontendSkills = [
     { name: 'React', level: 90 },
     { name: 'React Native', level: 70 },
-    { name: 'HTML5', level: 90 },
-    { name: 'CSS', level: 90 },
     { name: 'JavaScript / TypeScript', level: 90 },
     { name: 'Flutter', level: 85 },
-    { name: 'Angular', level: 80 },
+    { name: 'Angular', level: 75 },
   ];
   
   const backendSkills = [
     { name: 'Node.js', level: 90 },
     { name: 'Flask / FastAPI', level: 80 },
     { name: 'PHP Symfony', level: 80 },
+    { name: 'Supabase', level: 85 },
   ];
   
   const toolsSkills = [
@@ -37,8 +36,6 @@ export const SkillsSection = () => {
     { name: 'CI/CD', level: 70 },
     { name: 'Agile/Scrum', level: 85 },
     { name: 'Figma', level: 70 },
-    { name: 'PostgreSQL / MySQL', level: 85 },
-    { name: 'Kubernetes', level: 70 },
   ];
   
   const renderSkillBar = (skill: { name: string; level: number }) => (
