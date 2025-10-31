@@ -14,26 +14,26 @@ export const SkillsSection = () => {
   
   // Skill sets
   const frontendSkills = [
-    { name: 'React', level: 90 },
+    { name: 'React', level: 85 },
     { name: 'React Native', level: 70 },
     { name: 'JavaScript / TypeScript', level: 90 },
-    { name: 'Flutter', level: 85 },
-    { name: 'Angular', level: 75 },
+    { name: 'Flutter', level: 75 },
+    { name: 'Angular', level: 80 },
   ];
   
   const backendSkills = [
-    { name: 'Node.js', level: 90 },
+    { name: 'Node.js (Express / NestJS)', level: 80 },
     { name: 'Flask / FastAPI', level: 80 },
-    { name: 'PHP Symfony', level: 80 },
+    { name: 'PHP Symfony', level: 75 },
     { name: 'Supabase', level: 85 },
   ];
   
   const toolsSkills = [
-    { name: 'Stripe', level: 85 },
+    { name: 'Stripe', level: 80 },
     { name: 'Git', level: 90 },
-    { name: 'Docker', level: 80 },
+    { name: 'Docker', level: 85 },
     { name: 'Cloud', level: 80 },
-    { name: 'CI/CD', level: 70 },
+    { name: 'CI/CD', level: 75 },
     { name: 'Agile/Scrum', level: 85 },
     { name: 'Figma', level: 70 },
   ];
