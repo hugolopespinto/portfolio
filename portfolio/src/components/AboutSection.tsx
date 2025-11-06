@@ -9,7 +9,7 @@ export const AboutSection = () => {
     <section id="about" className="section-padding relative overflow-hidden">
       {/* Background gradient element */}
       <div className="absolute top-40 left-0 w-1/2 h-1/2 bg-primary/10 blur-[120px] rounded-full -z-10"></div>
-      
+
       <div className="container mx-auto px-4">
         {/* Title */}
         <div className="flex flex-col items-center text-center mb-16 animate-fade-in">
@@ -18,7 +18,7 @@ export const AboutSection = () => {
         </div>
 
         {/* Formation */}
-        <div className="mb-16">
+        <div className="mb-20">
           <h3 className="text-2xl font-bold mb-8 text-center">{t('educationTitle')}</h3>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             {/* Epitech */}
@@ -58,9 +58,25 @@ export const AboutSection = () => {
         </div>
 
         {/* Expérience */}
-        <div>
+        <div className="mb-20">
           <h3 className="text-2xl font-bold mb-8 text-center">{t('experienceTitle')}</h3>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            {/* Part Time */}
+            <Card className="glass-card overflow-hidden hover-scale">
+              <CardContent className="p-6">
+                <div className="flex items-start gap-4">
+                  <div className="bg-primary/20 p-3 rounded-full">
+                    <Briefcase className="h-6 w-6 text-primary" />
+                  </div>
+                  <div className="space-y-2">
+                    <h3 className="text-lg font-semibold">{t('partTimeTitle')}</h3>
+                    <p className="font-medium">{t('partTimeCompany')}</p>
+                    <p className="text-sm text-foreground/70">{t('partTimeDescription')}</p>
+                    <p className="text-sm text-primary font-mono">{t('partTimeYears')}</p>
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
             {/* Articentro */}
             <Card className="glass-card overflow-hidden hover-scale">
               <CardContent className="p-6">
@@ -77,6 +93,13 @@ export const AboutSection = () => {
                 </div>
               </CardContent>
             </Card>
+          </div>
+        </div>
+
+        {/* Internship */}
+        <div className="mb-20">
+          <h3 className="text-2xl font-bold mb-8 text-center">{t('internshipTitle')}</h3>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             {/* Redbox */}
             <Card className="glass-card overflow-hidden hover-scale">
               <CardContent className="p-6">
@@ -106,23 +129,6 @@ export const AboutSection = () => {
                     <p className="font-medium">{t('risuCompany')}</p>
                     <p className="text-sm text-foreground/70">{t('risuDescription')}</p>
                     <p className="text-sm text-primary font-mono">{t('risuYears')}</p>
-                  </div>
-                </div>
-              </CardContent>
-            </Card>
-
-            {/* Part Time */}
-            <Card className="glass-card overflow-hidden hover-scale">
-              <CardContent className="p-6">
-                <div className="flex items-start gap-4">
-                  <div className="bg-primary/20 p-3 rounded-full">
-                    <Briefcase className="h-6 w-6 text-primary" />
-                  </div>
-                  <div className="space-y-2">
-                    <h3 className="text-lg font-semibold">{t('partTimeTitle')}</h3>
-                    <p className="font-medium">{t('partTimeCompany')}</p>
-                    <p className="text-sm text-foreground/70">{t('partTimeDescription')}</p>
-                    <p className="text-sm text-primary font-mono">{t('partTimeYears')}</p>
                   </div>
                 </div>
               </CardContent>
