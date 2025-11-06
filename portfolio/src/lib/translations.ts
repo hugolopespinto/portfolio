@@ -22,6 +22,7 @@ export const translations: Translations = {
     // About Section
     educationTitle: "Educations",
     experienceTitle: "Experiences",
+    internshipTitle: "Internships",
     aboutTitle: "About my experiences",
     aboutDescription: `I am a software engineer graduated from Epitech in 2025, passionate about creating web applications.
     With a solid background in computer science and a good sense of design, I bring ideas to life through code.
@@ -33,7 +34,7 @@ export const translations: Translations = {
     aboutYears: "2020 - 2025", 
 
     articentroTitle: "Articentro",
-    articentroCompany: "Founder & Full Stack Developer",
+    articentroCompany: "Founder & Full Stack Software Engineer & AI",
     articentroDescription: "Full development of a SaaS business management application designed for construction professionals (quotes, invoices, clients, payments, tracking). Built entirely from the ground up — from needs analysis to production release. Tech stack: Next.js (React), TypeScript, Supabase, jsPDF. This experience highlights strong autonomy, end-to-end product vision, and mastery of the full software development lifecycle.",
     articentroYears: "July 2025 – Present | Remote",
 
@@ -45,12 +46,12 @@ export const translations: Translations = {
     risuTitle: "Experience",
     risuCompany: "RISU - Full Stack Mobile Developer",
     risuDescription: "Node.js, Flutter, CI/CD, Docker, Git, Scrum",
-    risuYears: "2023 - 2025 | 2 years",
+    risuYears: "2023 - 2025 | 2 years | Remote",
     
     partTimeTitle: "Experience",
-    partTimeCompany: "Freelance - Software Engineer | Full Stack Developer",
-    partTimeDescription: "End-to-end full stack projects with Node.js, React, TypeScript, Agile",
-    partTimeYears: "2024 - 2025 | 1 year",
+    partTimeCompany: "Freelance - Full Stack Developer & AI",
+    partTimeDescription: "Participated in a variety of web projects: end-to-end application development as well as adding new features to ongoing projects. Worked with Node.js, React, Qwik, TypeScript, FastAPI, Docker, and Flutter, applying Clean Architecture principles and maintainable coding practices. Implemented AI-powered functionalities: chatbots, API integrations with Python-based AI models, and a voice agent (call bot). Optimized deployment pipelines and automated workflows for faster delivery and improved reliability.",
+    partTimeYears: "sept 2024 - 2025 | 1 year | Remote, France",
     
     rhinovTitle: "Experience",
     rhinovCompany: "Rhinov - Full Stack & AI Developer Intern",
@@ -128,6 +129,7 @@ export const translations: Translations = {
     // About Section
     educationTitle: "Formations",
     experienceTitle: "Expériences",
+    internshipTitle: "Stages",
     aboutTitle: "À Propos de mes expériences",
     aboutDescription: `Je suis un ingénieur logiciel diplômé d'Epitech en 2025, passionné par la création d'applications web.
     Avec une solide formation en informatique et un bon sens du design, je donne vie aux idées à travers le code.
@@ -140,9 +142,9 @@ export const translations: Translations = {
 
     // Experience and Education Cards
     articentroTitle: "Articentro",
-    articentroCompany: "Fondateur & Développeur Full Stack",
+    articentroCompany: "Fondateur & Ingénieur Logiciel Full Stack & IA",
     articentroDescription: "Développement complet d’une application SaaS de gestion commerciale destinée aux artisans du bâtiment (devis, factures, clients, paiements, suivis). Projet conçu, développé et déployé de A à Z, de l’analyse du besoin à la mise en production. Stack : Next.js (React), TypeScript, Supabase, jsPDF. Expérience marquée par une forte autonomie, une vision produit complète et une maîtrise du cycle de développement d’un logiciel professionnel.",
-    articentroYears: "Juillet 2025 – Aujourd’hui | À distance",
+    articentroYears: "Juillet 2025 – Aujourd’hui | Remote",
 
     cycleVistaTitle: "Site Ecommerce",
     cycleVistaCompany: "Cycle Vista Store - Développeur Full Stack",
@@ -152,12 +154,12 @@ export const translations: Translations = {
     risuTitle: "Expérience",
     risuCompany: "RISU - Développeur Full Stack Mobile",
     risuDescription: "Node.js, Flutter, CI/CD, Docker, Git, Scrum",
-    risuYears: "2023 - 2025 | 2 ans",
+    risuYears: "2023 - 2025 | 2 ans | Remote",
     
     partTimeTitle: "Expérience",
-    partTimeCompany: "Freelance - Ingénieur logiciel | Développeur Full Stack",
-    partTimeDescription: "Projets full stack de A à Z avec Node.js, React, TypeScript, Agile",
-    partTimeYears: "2024 - 2025 | 1 an",
+    partTimeCompany: "Freelance - Développeur Full Stack & IA",
+    partTimeDescription: "Participated in a variety of web projects: end-to-end application development as well as adding new features to ongoing projects. Worked with Node.js, React, Qwik, TypeScript, FastAPI, Docker, and Flutter, applying Clean Architecture principles and maintainable coding practices. Implemented AI-powered functionalities: chatbots, API integrations with Python-based AI models, and a voice agent (call bot). Optimized deployment pipelines and automated workflows for faster delivery and improved reliability. ",
+    partTimeYears: "sept 2024 - 2025 | 1 an | Remote, France",
     
     rhinovTitle: "Expérience",
     rhinovCompany: "Rhinov - Stagiaire Développeur Full Stack & IA",
