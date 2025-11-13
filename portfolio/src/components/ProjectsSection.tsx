@@ -22,6 +22,15 @@ export const ProjectsSection = () => {
     },
     {
       id: 2,
+      title: 'Smart Recipe AI',
+      description: t('smartRecipeDescription'),
+      image: 'assets/smart-recipe.png',
+      technologies: ['React (Next)', 'Node.js (Nest)', 'OpenAI', 'Supabase', 'JWT'],
+      demoLink: 'https://docs.google.com/presentation/d/1GrA5JiajMCfJYlV-Fwmf1SbA7aNFenXIxU7fJgPq84Q/edit?usp=sharing',
+      repoLink: 'https://github.com/hugolopespinto/Smart-Recipe-Generator',
+    },
+    {
+      id: 3,
       title: 'Cycle Vista Store',
       description: t('cycleVistaDescription'),
       image: 'assets/hero-bike.jpg',
@@ -30,7 +39,7 @@ export const ProjectsSection = () => {
       repoLink: '#',
     },
     {
-      id: 3,
+      id: 4,
       title: 'RISU',
       description: t('risuDescriptionProject'),
       image: 'https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?q=80&w=2574&auto=format&fit=crop',
@@ -39,7 +48,7 @@ export const ProjectsSection = () => {
       repoLink: 'https://github.com/H-chauvet/RISU',
     },
     {
-      id: 4,
+      id: 5,
       title: 'Grand Luxe Drive',
       description: t('grandLuxeDriveDescription'),
       image: 'https://images.unsplash.com/photo-1517694712202-14dd9538aa97?q=80&w=2670&auto=format&fit=crop',
@@ -48,7 +57,7 @@ export const ProjectsSection = () => {
       repoLink: '#',
     },
     {
-      id: 5,
+      id: 6,
       title: 'EURL SC',
       description: t('eurlscDescription'),
       image: 'https://images.unsplash.com/photo-1517694712202-14dd9538aa97?q=80&w=2670&auto=format&fit=crop',
@@ -57,7 +66,7 @@ export const ProjectsSection = () => {
       repoLink: '#',
     },
     {
-      id: 5,
+      id: 7,
       title: 'Student link',
       description: t('studentLinkDescriptionProject'),
       image: 'https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?q=80&w=2574&auto=format&fit=crop',

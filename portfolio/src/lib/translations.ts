@@ -38,6 +38,11 @@ export const translations: Translations = {
     articentroDescription: "Full development of a SaaS business management application designed for construction professionals (quotes, invoices, clients, payments, tracking). Built entirely from the ground up — from needs analysis to production release. Tech stack: Next.js (React), TypeScript, Supabase, jsPDF. This experience highlights strong autonomy, end-to-end product vision, and mastery of the full software development lifecycle.",
     articentroYears: "July 2025 – Present | Remote",
 
+    smartRecipeTitle: "Smart Recipe AI",
+    smartRecipeCompany: "Smart Recipe AI - Full Stack Developer & AI",
+    smartRecipeDescription: "Smart Recipe Generator is a full-stack web app (React, Next.js, Node.js, NestJS) using OpenAI integration to automatically generate recipes and realistic food images. Built with Supabase (PostgreSQL) and a secure JWT API, it showcases modern design, AI integration, and cloud-based architecture.",
+    smartRecipeYears: "2025",
+
     cycleVistaTitle: "Ecommerce website",
     cycleVistaCompany: "Cycle Vista Store - Full Stack Developer",
     cycleVistaDescription: "Cycle Vista is a fictional ecommerce website for bicycles. The site is for demonstration purposes only, no real orders or purchases can be made. Stripe is in test mode.",
@@ -145,6 +150,11 @@ export const translations: Translations = {
     articentroCompany: "Fondateur & Ingénieur Logiciel Full Stack & IA",
     articentroDescription: "Développement complet d’une application SaaS de gestion commerciale destinée aux artisans du bâtiment (devis, factures, clients, paiements, suivis). Projet conçu, développé et déployé de A à Z, de l’analyse du besoin à la mise en production. Stack : Next.js (React), TypeScript, Supabase, jsPDF. Expérience marquée par une forte autonomie, une vision produit complète et une maîtrise du cycle de développement d’un logiciel professionnel.",
     articentroYears: "Juillet 2025 – Aujourd’hui | Remote",
+
+    smartRecipeTitle: "Smart Recipe AI",
+    smartRecipeCompany: "Smart Recipe AI - Développeur Full Stack & IA",
+    smartRecipeDescription: "Smart Recipe Generator est une application web full-stack (React, Next.js, Node.js, NestJS) intégrant l’IA d’OpenAI pour générer automatiquement des recettes et leurs images réalistes. Basée sur Supabase (PostgreSQL) et une API sécurisée JWT, elle combine design moderne, intégration IA et architecture cloud.",
+    smartRecipeYears: "2025",
 
     cycleVistaTitle: "Site Ecommerce",
     cycleVistaCompany: "Cycle Vista Store - Développeur Full Stack",
