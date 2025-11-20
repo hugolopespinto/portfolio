@@ -1,5 +1,4 @@
-
-import React, { createContext, useState, useContext, ReactNode } from 'react';
+import React, { createContext, useState, useContext, ReactNode, useEffect } from 'react';
 import { translations } from '@/lib/translations';
 
 type LanguageContextType = {
@@ -8,26 +7,37 @@ type LanguageContextType = {
   t: (key: string) => string;
 };
 
-const defaultLanguageContext: LanguageContextType = {
+const LanguageContext = createContext<LanguageContextType>({
   language: 'en',
   changeLanguage: () => {},
   t: () => '',
-};
-
-const LanguageContext = createContext<LanguageContextType>(defaultLanguageContext);
+});
 
 export const useLanguage = () => useContext(LanguageContext);
 
 export const LanguageProvider = ({ children }: { children: ReactNode }) => {
-  const [language, setLanguage] = useState<string>('en');
+  const [language, setLanguage] = useState('en');
+
+  useEffect(() => {
+    const saved = localStorage.getItem('lang');
+    if (saved) {
+      setLanguage(saved);
+      return;
+    }
+
+    const browserLang = navigator.language.slice(0, 2);
+    const defaultLang = ['en', 'fr'].includes(browserLang) ? browserLang : 'en';
+
+    setLanguage(defaultLang);
+    localStorage.setItem('lang', defaultLang);
+  }, []);
 
   const changeLanguage = (lang: string) => {
     setLanguage(lang);
+    localStorage.setItem('lang', lang);
   };
 
-  const t = (key: string): string => {
-    return translations[language]?.[key] || key;
-  };
+  const t = (key: string) => translations[language]?.[key] || key;
 
   return (
     <LanguageContext.Provider value={{ language, changeLanguage, t }}>
