@@ -33,6 +33,8 @@ export const translations: Translations = {
     aboutDegree: "Master's Degree in Computer Science",
     aboutYears: "2020 - 2025", 
 
+    CVBoosterDescription: "CV Booster AI is an intelligent assistant capable of analyzing job postings, extracting key skills, and automatically optimizing a CV through a RAG pipeline. The system leverages your personal documents (profile, experience, projects) using HuggingFace embeddings stored in ChromaDB, and generates tailored recommendations using a local LLM running through Ollama (Mistral). The application is built with FastAPI, LangChain, Python, and a clean backend architecture powered by a modular, high-performance AI analysis engine.",
+
     articentroTitle: "Articentro",
     articentroCompany: "Founder & Full Stack Software Engineer & AI",
     articentroDescription: "Full development of a SaaS business management application designed for construction professionals (quotes, invoices, clients, payments, tracking). Built entirely from the ground up — from needs analysis to production release. Tech stack: Next.js (React), TypeScript, Supabase, jsPDF. This experience highlights strong autonomy, end-to-end product vision, and mastery of the full software development lifecycle.",
@@ -144,6 +146,8 @@ export const translations: Translations = {
     aboutSchool: "Epitech École de Technologie",
     aboutDegree: "Master en Informatique",
     aboutYears: "2020 - 2025",
+
+    CVBoosterDescription: "CV Booster AI est un assistant intelligent capable d’analyser une offre d’emploi, d’en extraire les compétences clés et d’optimiser automatiquement un CV grâce à un pipeline RAG. Le système exploite tes documents personnels (profil, expériences, projets) via des embeddings HuggingFace stockés dans ChromaDB, puis génère des recommandations personnalisées à l’aide d’un LLM local exécuté avec Ollama (Mistral). L’application est construite avec FastAPI, LangChain, Python et une architecture backend propre intégrant un moteur d’analyse IA modulaire et performant.",
 
     // Experience and Education Cards
     articentroTitle: "Articentro",
