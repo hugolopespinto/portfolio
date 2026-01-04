@@ -20,7 +20,7 @@ export const AboutSection = () => {
         {/* Formation */}
         <div className="mb-20">
           <h3 className="text-2xl font-bold mb-8 text-center">{t('educationTitle')}</h3>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-1 gap-8">
             {/* Epitech */}
             <Card className="glass-card overflow-hidden hover-scale">
               <CardContent className="p-6">
@@ -39,7 +39,7 @@ export const AboutSection = () => {
             </Card>
 
             {/* Ahlia */}
-            <Card className="glass-card overflow-hidden hover-scale">
+            {/* <Card className="glass-card overflow-hidden hover-scale">
               <CardContent className="p-6">
                 <div className="flex items-start gap-4">
                   <div className="bg-primary/20 p-3 rounded-full">
@@ -53,7 +53,7 @@ export const AboutSection = () => {
                   </div>
                 </div>
               </CardContent>
-            </Card>
+            </Card> */}
           </div>
         </div>
 
